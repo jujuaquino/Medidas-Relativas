@@ -1,0 +1,40 @@
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .primeira-sessao{
+    background-color: rgb(0, 3, 168);
+//largura:
+   width: 500px;
+   height: 500px;
+   
+//alinhamento/nesting
+   div{
+    background-color: rgb(0, 0, 0);
+    width: 50vw; //vw
+    height: 50vh; //vh
+
+   }
+//medidas relativas
+//vw (viewport width)
+// 1vw é igual a 1% da largura da sua pagina
+//ajustamento (largura) do site na janela para visualização
+
+//vh (viewport heigth) é a altura da janela de visualização.
+
+    }
+    .segunda-sessao{
+ background-color: rgb(0, 183, 255);
+ height: 60vh;
+    width: 60vw;
+
+    div{
+ background-color: rgb(0, 0, 0);
+//%porcentagem
+//relativa ao pai
+    width: 50%;
+    height: 50%;
+    }
+    }
